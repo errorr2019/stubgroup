@@ -1,0 +1,396 @@
+/* --------------------------first-section---------------------------------------- */
+.sectionfirst  {
+    position: relative;
+    height: 100%;
+}
+
+
+.sectionfirst span.et_pb_image_wrap 
+{
+    position: absolute;
+    top: -55px;
+    left:35px;
+    height: 100%;
+
+}
+
+.sectionfirst .et_pb_text_inner {
+    top: -20px;
+    position: relative;
+}
+
+.et_pb_section .et_pb_button_0{
+   margin-bottom: 35px;
+   padding: 2px 15px;
+
+}
+
+/* --------------------------second-section-------------sectionsecondrel--------------------------- */
+
+.sectionsecondrel .et_pb_section .et_pb_section_1 {
+    position: relative;
+    top: 35px;
+}
+
+/* --------------------------sectionfourth---------------------------------------- */
+
+/* .et_pb_section.et_pb_section_3.sectionfourth.et_pb_with_background.et_section_regular {
+    background-color: #ebf4f9;
+    position: static;
+} */
+
+
+/* .sectionfourth .et_pb_row .et_pb_row_6{
+    height: 100%;
+
+} */
+
+    /* .sectionfourth .et_pb_image img {
+        position: relative;
+        left: 133px;
+    } */
+
+/* .sectionfourth .sectionfourthimgcol{
+    position: absolute;
+    left: 133px;
+}
+ */
+
+ .sectionfourth{
+    background-color: #ebf4f9;
+    position: static;
+ }
+.sectionfourth .sectionfourthimgcol {
+    position: absolute;
+    /* right: 0; */
+    left: 702px;
+    bottom: 0px;
+}
+
+.sectionfourth .et_pb_text_inner {
+    padding: 1px 0px 53px 0px;
+}
+
+/* ---------------post-css------------------------ */
+
+p{
+    /* padding: 20px; */
+    font-size: 10px;
+    color: black;
+
+}
+
+
+h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+
+}
+
+h3{
+    font-size: 51px;
+    font-weight: 400;
+    color: black;
+}
+
+.mm_blog_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mm_blog_section_row{
+ 
+    width: calc(33.33% - 20px); /* Adjust width and margins to fit your design */
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+.mm_blog_section_row img{
+    max-height: 230px;
+    width:630px;
+}
+
+
+.blog-content{
+    padding: 20px;
+    max-height: 330px;
+
+}
+.btn{
+    background-color: #3a99da; 
+    border: none;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    font-style: bold;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 300px;
+    position: relative;
+    bottom: 31px;
+}
+  
+.mm_blog_title{
+    margin-bottom: 30px;
+  
+}
+.mm_blog_title h2{
+    font-size:large;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.mm_blog_title p{
+    margin-bottom: 50px;
+}
+
+/* ========================single.php===================== */
+.singleimg{
+    max-height: 530px;
+    width:630px;
+    margin: 0px 0px 60px 350px;
+}
+
+.singletitle{
+    padding: 80px 0px 0px 0px ;
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.singleblog{
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    color: #333333;
+    text-align: center;
+}
+
+.singlecontent{
+    font-size: 30px;
+}
+
+.singlevideo{
+    margin: 0px 0px 0px 350px;
+}
+
+
+/* =========================================== */
+
+.newdiv{
+    background-color: #35516e;
+    width: 100%;
+    height: 390px;
+    margin:50px 0px 30px 0px ;
+    position: relative;
+}
+
+.newdiv h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    color: white;
+}
+
+.newdiv p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    top: 43%;
+    left: 18%;
+    color: white;
+    width: 65%;
+}
+
+.newdiv input {
+    padding: 12px 170px 12px 170px;
+    position: relative;
+    top: 74%;
+    left: 22%;
+    color: black;
+    border: white solid 1px;
+    background-color: transparent;
+}
+
+.newdiv label{
+    position: relative;
+    top: 62%;
+    left: 25.6%;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.indexebtn {
+    padding: 15px 80px 15px 80px;
+    position: relative;
+    top: 74%;
+    left: 23%;
+    color: black;
+    background-color: #3A99DA;
+    border-radius: 10px;
+}
+
+/* -----------------------custom-post-type-------------------------------- */
+
+/* .et_pb_image .et_pb_image_wrap {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    left: 135px;
+    bottom: 77px;
+}
+
+.et_pb_image img {
+    position: relative;
+    width: 100%;
+    height: 500px;
+} */
+
+.et_pb_module .et_pb_text_inner p{
+    color: black;
+    font-size: 19px;
+}
+
+.et_pb_module .et_pb_text_inner strong{
+    color: black;
+    font-size: 48px;
+    line-height: 40px!important;
+}
+
+
+.our_players-section{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.our_players_col{
+    width: 253px;
+    margin: 0px 10px 0px 0px;
+    text-align: center;
+    line-height: 24px;
+   
+}
+
+/* .our_players-section .our_players_col{
+    width: 253px;
+    margin: 0px 10px 0px 0px;
+    text-align: center;
+    line-height: 24px;
+   
+} */
+
+/* =============== cpt-new-div ============== */
+
+.cptnewdiv{
+    background-color: #35516e;
+    width: 100%;
+    height: 390px;
+    margin: 50px 0px 30px 0px;
+    position: static;
+}
+
+.cptnewdiv label{
+    position: relative;
+    top: 62%;
+    left: 14%;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.cptnewdiv input {
+    padding: 12px 170px 12px 170px;
+    position: relative;
+    top: 74%;
+    left: 8%;
+    color: black;
+    border: white solid 1px;
+    background-color: transparent;
+}
+
+.cptnewdivbtn{
+        padding: 15px 80px 15px 80px;
+        position: relative;
+        top: 74%;
+        left: 8%;
+        color: black;
+        background-color: #3A99DA;
+        border-radius: 10px;
+    }
+
+
+.cptnewdiv p{
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    top: 43%;
+    left: 18%;
+    color: white;
+    width: 65%;
+}
+
+.cptnewdiv h2{
+    font-size: 38px;
+    line-height: 40px!important;
+    text-align: center;
+    position: relative;
+    top: 97px;
+    color: white;
+}
+
+
+/* ------------------------------ page 404 ------------------------------------- */
+
+.div404{
+text-align: center;
+/* width: 50%; */
+}
+
+.heading404{
+color: darkgreen;
+font-size: 400px;
+font-weight: bolder;
+/* margin: 0%; */
+letter-spacing: -1px;
+background-image: url(images/errorpage-wave.png), url(images/errorpage-wave.png);
+background-position: ;
+background-repeat: no-repeat;
+}
+
+
+
+.span404{
+color: black;
+font-size: 400px;
+font-weight: bolder;
+/* margin: 0%; */
+}
+
+.para404{
+    color: black;
+    font-size: 30px;
+    /* max-width: 30%; */
+
+}
+
+.span4042{
+  color: black;
+    font-size: 30px;
+}
